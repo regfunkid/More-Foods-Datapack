@@ -1,0 +1,2 @@
+clear @s knowledge_book[custom_data={item_id:burrito}] 1
+give @p minecraft:firework_star[minecraft:custom_model_data=104,food={nutrition:12,saturation:12,eat_seconds:2.4},minecraft:item_name='{"text":"Burrito"}']
