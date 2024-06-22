@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "W W",
+    " W ",
+    "W W"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 3,
+    "components": {
+      "minecraft:custom_model_data": 129,
+      "minecraft:food": {
+        "nutrition": 5,
+        "saturation": 5,
+        "can_always_eat": true,
+        "eat_seconds": 1.8
+      },
+      "minecraft:item_name": "{\"text\":\"Pretzel\"}"
+    }
+  }
+}
