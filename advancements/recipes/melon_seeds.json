@@ -1,0 +1,32 @@
+{
+  "parent": "morefoods:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "morefoods:melon_seeds"
+      }
+    },
+    "has_melon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:melon"
+          }
+        ]
+      }
+	}
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_melon"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "morefoods:melon_seeds"
+    ]
+  }
+}

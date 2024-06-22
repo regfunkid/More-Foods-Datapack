@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:custom_model_data": 127
+      }
+    },
+    "title": "Extreme Dieting",
+    "description": "Willingly consume some Monster Mash and live",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "morefoods:desperate_times",
+  "criteria": {
+    "ate monster mash": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 127
+          }
+        }
+      }
+    }
+  }
+}

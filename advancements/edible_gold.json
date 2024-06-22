@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tropical_fish"
+    },
+    "title": "Edible Gold",
+    "description": "Craft some Cheese",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "morefoods:making_the_cut",
+  "criteria": {
+    "cheese from end stone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:stonecutting/cheese_from_end_stone"
+      }
+    },
+    "cheese from sponge": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:stonecutting/cheese_from_sponge"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cheese from end stone",
+      "cheese from sponge"
+    ]
+  ]
+}
