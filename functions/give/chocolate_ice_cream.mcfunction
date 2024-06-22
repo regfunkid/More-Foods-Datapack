@@ -1,0 +1,2 @@
+clear @s knowledge_book[custom_data={item_id:chocolate_ice_cream}] 1
+give @p minecraft:mushroom_stew[minecraft:custom_model_data=131,food={nutrition:3,saturation:1,can_always_eat:true},minecraft:item_name='{"text":"Chocolate Ice Cream"}']
